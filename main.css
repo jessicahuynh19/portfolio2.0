@@ -34,7 +34,10 @@ p {
 }
 
 img {
-    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 
@@ -55,7 +58,7 @@ img {
 }
 
 .section-heading h1{
-    font-size: 3.5rem;
+    font-size: 2rem;
     color: rgba(255,255,255, .3);
     text-transform: uppercase;
     font-weight: 300;
@@ -69,7 +72,7 @@ img {
     position: absolute;
     bottom: -.5rem;
     left: 50%;
-    transform:translateX(-50%)
+    transform:translateX(-50%);
     background-color: rgba(255,255,255, 0.75);
 }
 
@@ -136,7 +139,7 @@ li {
 }
 
 .nav-link{
-    font-family: 'The historia demo', sans-serif;
+    font-family: 'Galada', cursive;
     font-size: 5rem;
     padding: 1rem;
 }
@@ -216,8 +219,8 @@ li {
 
 .landing-text h1{
     font-size: 20rem;
-    font-family: 'The historia Demo',sans-serif;
-    background: linear-gradient(to top, #ffe838, #fd57bf)
+    font-family: 'Galada', cursive;
+    background: linear-gradient(to top, #ffe838, #fd57bf);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 1rem;
@@ -238,10 +241,17 @@ li {
     justify-content: center;
 }
 
-.about-heading{
+/* .about-heading{
    text-align: center;
    align-items: center;
    justify-content: center;
+} */
+
+.about-heading{
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 0;
+    margin-bottom: 6rem;
 }
 
 .about-heading h1{
@@ -330,7 +340,6 @@ li {
     align-items: center;
     justify-content: center;
     margin-bottom: 5rem;
-    margin
 }
 
 .portfolio-item:last-child{
